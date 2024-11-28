@@ -25,7 +25,7 @@ public class TesterMyString {
         System.out.println("Testing 'contains':");
 
         boolean test1 = MyString.contains("baba yaga", "baba");
-        boolean test2 = MyString.contains("baba yaga", "");
+        boolean test2 = MyString.contains("baba yaga", "b");
         boolean test3 = !MyString.contains("baba yaga", "John Wick is the baba yaga");
         boolean test4 = !MyString.contains("baba yaga", "Yaga");
         boolean test5 = !MyString.contains("baba yaga", "babayaga");
