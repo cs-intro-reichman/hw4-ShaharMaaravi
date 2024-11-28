@@ -18,8 +18,8 @@ public class MyString {
 
     /** Returns the lowercase version of the given string. */
     public static String lowerCase(String str) {
-        // Replace the following statement with your code
-        return null;
+        String result = lowerCase(str);
+        return result;
     }
 
     /** If str1 contains str2, returns true; otherwise returns false. */
