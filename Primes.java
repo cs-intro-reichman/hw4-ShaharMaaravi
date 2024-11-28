@@ -15,10 +15,13 @@ public class Primes {
             }
             p++; 
         }
+        int count = 0;
         for(int i = 2; i < isPrime.length-1; i++){ 
             if(isPrime[i]) { 
                 System.out.println(i);
+                count++;
             }
         }
+        System.out.println("There are " + count + " primes between 2 and " + n + ".(" + ((double)count/n)*100 + "% are primes)");
         } 
     }
