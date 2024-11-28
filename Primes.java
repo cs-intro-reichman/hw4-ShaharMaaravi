@@ -2,6 +2,7 @@ public class Primes {
     public static void main(String[] args) {
         final int n = Integer.parseInt(args[0]); 
         boolean [] isPrime = new boolean[n + 1]; 
+        System.out.println("Prime numbers up to " + n);
        
         for(int i = 0; i < isPrime.length - 1; i++) { 
             if(i > 1) { 
